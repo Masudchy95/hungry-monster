@@ -5,13 +5,16 @@
     padding: 40px;
 }
 #meal-container{
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
+    grid-gap: 1px;
+}
+.meal-details{
     border: 2px solid lightgray;
     border-radius: 20px;
+    background-color: rgba(211, 211, 211, 0.233);
     margin: 20px;
     padding: 20px;
     text-align: center;
     width: 300px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 50px;
 }
