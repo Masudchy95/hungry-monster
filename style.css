@@ -1,0 +1,17 @@
+.search-input{
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+    padding: 40px;
+}
+#meal-container{
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+}
