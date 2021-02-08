@@ -15,12 +15,14 @@
   <body>
     <div class="search-input">
       <h3>Hungry Monster food search</h3>
-        <input type="text" id="input-search" class="form-control" placeholder="Search by a letter for your desired Meal"> 
+        <input type="text" id="input-search" class="form-control" placeholder="Search for your desired Meal"> 
         <button onclick="mealSearchDisplay()" type="button" class="btn btn-primary search-btn">Search</button>
     </div>
+    
     <div id="meal-container">
+     
     </div>
-
+    <h3 id="error-message" class="text-danger"></h3>
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
